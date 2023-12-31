@@ -99,6 +99,7 @@ The development of the Digital Twin model for enhancing TSA operations involved 
 ### Phase 1: Base Model Conceptualization and Initial Prototyping
 
 **Tool Used**: Microsoft Excel
+\
 **Objective**: To demonstrate the viability of the project and the potential of the envisioned model, two base models were developed in Microsoft Excel. These models formed the foundation for the more comprehensive model that was to be developed later​​.
 
 
@@ -110,12 +111,14 @@ The development of the Digital Twin model for enhancing TSA operations involved 
 ### Phase 3: Model Conversion to Machine-Readable Format via MakerSuite
 
 **Tools Used**: Excel, Python, MakerSuite
+\
 **Objective**: The aim was to codify existing Operations Management models into machine-readable instructions and develop a platform for end-users of the Digital Twin to make informed decisions about the underlying queue management process. This phase combined the robust data structuring of Excel with the advanced computational abilities of Python and the linguistic proficiency of PALM’s LLM​​.
 
 
 ### Phase 4: Overall Project Integration via Python and GPT 4
 
 **Tools Used**: Excel, Python, ChatGPT
+\
 **Objective**:The fusion of these use cases and tools enhanced the practicality of the existing Digital Twin project. The ultimate goal was to create a system that was not only functional but also user-friendly and intuitive, minimizing the need for specialized skills or domain knowledge from users, particularly TSA agents​​.
 
 This multi-phase approach, leveraging various tools and overcoming specific challenges, was integral to the successful development of the Digital Twin model aimed at improving TSA checkpoint efficiency.
