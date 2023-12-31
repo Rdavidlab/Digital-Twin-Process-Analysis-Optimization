@@ -1,0 +1,57 @@
+/* Change the background color */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Customize the look of buttons */
+.btn-primary {
+  background-color: #004a90;
+  border-color: #004a90;
+}
+
+/* Add a background watermark */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/tsa_image.png') no-repeat center center;
+  background-size: contain;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* Your existing watermark styles... */
+
+/* New styles for FAQ section */
+.title-and-button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #0a4d8c;
+    margin-right: 0.5rem; /* Provides a small space between the title and the button */
+    display: flex;
+    align-items: center;
+}
+
+.faq-button {
+    display: inline-block; /* This will place the button next to the title */
+    margin-bottom: 0.4rem; /* Adjust vertical position if needed */
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    border: none; /* Remove border if any */
+    background-color: transparent; /* To make background transparent */
+    cursor: pointer; /* Make it look clickable */
+}
+
+.faq-button:hover {
+    opacity: 0.8; /* Example of a hover effect */
+    /* Add any other hover effects you desire */
+}
+

@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red11\green76\blue180;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1961\c38824\c75686;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs72 \cf2 \expnd0\expndtw0\kerning0
+TSA Wait Time Chatbot
+\fs32 \
+
+\fs72 \'a0
+\fs32 \
+\pard\pardeftab720\partightenfactor0
+
+\fs48 \cf2 Description
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+The TSA Wait Time Chatbot is an innovative and user-friendly application designed for TSA agents. It serves as an interactive tool allowing agents to inquire about various aspects of airport security and operations. Key functionalities include calculating waiting times, optimizing resource allocation, and providing updated travel-related information such as travel restrictions and emergency responses. While primarily tailored for TSA agents, the application's versatile design allows potential adaptation for different operational workflows beyond TSA security processes.\
+\'a0\
+
+\fs48 Installation Instructions
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+To set up the TSA Wait Time Chatbot, follow these steps:\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 1.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Python Installation: Ensure that you have Python installed on your system. The application is developed in Python, and it requires Python 3.x. You can download Python from {\field{\*\fldinst{HYPERLINK "https://www.python.org/downloads/"}}{\fldrslt \cf3 \ul \ulc3 python.org}}.\
+2.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Required Libraries: Install the necessary Python libraries using pip. The required libraries include:\
+\pard\pardeftab720\li1920\fi-480\partightenfactor0
+\cf2 a.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 re (Regular Expressions, should be included in standard Python installation)\
+b.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 openai (for OpenAI GPT integration)\
+c.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 dash (for creating the web application)\
+d.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 dash-bootstrap-components (for Bootstrap components in Dash)\
+e.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 pandas (for data manipulation and analysis)\
+f.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0\'a0 
+\f0\fs32 datetime (for handling dates and time)\
+g.  openpxyl (for reading xlsx file)\uc0\u8232 \
+\pard\pardeftab720\li1440\partightenfactor0
+\cf2 You can install these libraries using the following command: \uc0\u8232 pip install openai dash dash-bootstrap-components pandas \u8232 \u8232 \
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 3.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 OpenAI API Key: You will need an API key from OpenAI to use their GPT models. Register on the {\field{\*\fldinst{HYPERLINK "https://beta.openai.com/signup/"}}{\fldrslt \cf3 \ul \ulc3 OpenAI API platform}} and get your API key. Place this API key in the appropriate location in your code (openai.api_key).\
+4.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Assets Folder: Ensure that the assets folder, containing necessary frontend assets and the dataset, is in the same directory as your Python script.\
+5.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Running the Application: After installing the dependencies and setting up the assets folder, run the Python script to start the application. It will host the application on your local server, typically accessible at http://127.0.0.1:8050/ in your web browser.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs48 \cf2 Usage Instructions
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+After installing the required packages, ensure that the assets folder, which contains essential images for the front-end design, and the dataset used by the application is in the same directory as the code. Run the script to launch the application on your local server.\
+For effective usage:\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \'b7
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0\'a0 
+\f0\fs32 Refer to the provided FAQs to understand how to frame model-specific questions.\
+\'b7
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0\'a0 
+\f0\fs32 For waiting time inquiries, include "waiting time" in your question.\
+\'b7
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0\'a0 
+\f0\fs32 To inquire about staff allocation, use key phrases like 'allocate staff', 'sitting around', 'best way to allocate', or 'resources'.\
+\pard\pardeftab720\li480\partightenfactor0
+\cf2 \'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs48 \cf2 Features
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 1.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Interactive Chatbot: Engage with the chatbot by inputting questions, selecting a GPT model of your choice, and tweaking activity time parameters if needed.\
+2.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Integration with OpenAI's ChatGPT: This feature broadens the application's utility beyond travel-related inquiries, allowing for a diverse range of questions and answers.\
+3.
+\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
+\f0\fs32 Data-Driven Insights: Utilize the dataset included in the application for informed decision-making. The front-end allows specifying parameters to fetch data on passenger numbers, enabling the calculation of waiting times and effective planning based on historical data trends.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs48 \cf2 Credits
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+This application makes use of various APIs for its operations, which have been integral to its development and functionality.\
+\'a0\
+
+\fs48 Contact Information
+\fs32 \
+
+\fs48 \'a0
+\fs32 \
+For any queries, suggestions, or feedback, please contact Sean Park at {\field{\*\fldinst{HYPERLINK "mailto:sspark2@andrew.cmu.edu"}}{\fldrslt \cf3 \ul \ulc3 sspark2@andrew.cmu.edu}}.\
+\'a0\
+}
